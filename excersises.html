@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Inline&family=Lalezar&family=Mukta:wght@300&family=Secular+One&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Excersise</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Exersise Ever</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="excersises.html">Comenzar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="caneat.html">¿Puedo comerlo?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="info">
+      <h1>Comienza tus ejercicios</h1>
+      <h4>Este es un espacio para que puedas comenzar a ejercitarte. Clickea en "Agregar nuevo ejercicio" y elige la
+        lista de ejercicios que tenemos para ofrecerte</h4>
+    </div>
+    <div class="card text-center w-100 p-3 text-center cardExcersise">
+      <div class="row ">
+        <div class="col-5 fs-12 p-7" id="cardContain">
+          <h5>Agregar nuevo ejercicio</h5>
+          <button class="btn btn-dark" id="btnAdd">
+            ➕ 
+          </button>
+        </div>
+        <div class="col-7" id="contentExersise">
+          <h3>Para empezar, agrega un nuevo ejercicio</h3>
+          <h4>💪 <h4>
+        </div>
+      </div>
+    </div>
+    <div class="alert alert-dark alert-dismissible fade show position-absolute top-50 start-50 translate-middle p-3"
+      id="alertExc" role="alert" style="height:500px; overflow-y: scroll;">
+      <h2>Rutinas disponibles</h2>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+      <div class="row p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end mb-2" id="rutinaUno">
+        <div class="col-6 col-md-4 p-2" style="border-bottom: 2px solid black; border-right: 2px solid black;">
+          <h4>Ejercios A</h4>
+        </div>
+        <div class="col-6 col-md-8 p-2" style="border-bottom: 2px solid black;" >
+          <h4>Abdominales y Peso Muerto</h4>
+        </div>
+        <div class="col-6 col-md-12 p-2">En esta seccion de ejercicios podras fortalecer tus abdominales y usar el peso
+          muerto para aumentar la masa muscular y la fuerza de la cadena posterior del cuerpo, además de mejorar su
+          rendimiento.</div>
+      </div>
+      <button class="w-100 btn btn-success" id="btnEx1">Agregar</button>
+      <hr>
+      <div class="row p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end mb-2" id="rutinaDos">
+        <div class="col-6 col-md-4 p-3" style="border-bottom: 2px solid black; border-right: 2px solid black;">
+          <h4>Ejercios B</h4>
+        </div>
+        <div class="col-6 col-md-8 p-3" style="border-bottom: 2px solid black;">
+          <h4>Movimientos laterales y Press de banca con barra</h4>
+        </div>
+        <div class="col-6 col-md-12 p-3">En esta seccion de ejercicios haras movimientos laterales y el press de banca
+          para mejorar la fuerza de la zancada, la estabilidad de la cadera y ganar masa muscular en el tren superior..
+        </div>
+      </div>
+      <button class="w-100 btn btn-success" id="btnEx2">Agregar</button>
+      <hr>
+      <div class="row p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end mb-2" id="rutinaTres">
+        <div class="col-6 col-md-4 p-3" style="border-bottom: 2px solid black; border-right: 2px solid black;">
+          <h4>Ejercios C</h4>
+        </div>
+        <div class="col-6 col-md-8 p-3" style="border-bottom: 2px solid black;">
+          <h4>Zancada y Remo invertido</h4>
+        </div>
+        <div class="col-6 col-md-12 p-3">En esta seccion de ejercicios haras zancadas y remo invertido para fortalecer
+          piernas, gluteon y la musculatura dorsal</div>
+      </div>
+      <button class="w-100 btn btn-success" id="btnEx3">Agregar</button>
+      <hr>
+      <div class="row p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end mb-2" id="rutinaCuatro">
+        <div class="col-6 col-md-4 p-3" style="border-bottom: 2px solid black; border-right: 2px solid black;">
+          <h4>Ejercios D</h4>
+        </div>
+        <div class="col-6 col-md-8 p-3" style="border-bottom: 2px solid black;">
+          <h4>Biceps y Triceps</h4>
+        </div>
+        <div class="col-6 col-md-12 p-3">En esta seccion de ejercicios haras biceps y triceps para aumentar la
+          musculatura de tus brazos</div>
+      </div>
+      <button class="w-100 btn btn-success" id="btnEx4">Agregar</button>
+    </div>
+
+    <div class="cronometro" id="time">
+      <div id="hms"></div>
+      <div class="boton start"></div>
+      <div class="boton stop"></div>
+      <div class="boton reiniciar"></div>
+    </div>
+
+    <div class="progressInfo">
+      <h1>Fatiga muscular</h1>
+
+      <h4>Abdomen</h4>
+      <div class="progress progressAbdomen">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" id="progressAbdomen" role="progressbar"
+          aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+          style="width: 1%"></div>
+      </div>
+
+      <h4>Pectorales</h4>
+      <div class="progress progressPectorales">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="progressPectorales"
+          role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100" style="width: 1%"></div>
+      </div>
+
+      <h4>Brazos</h4>
+      <div class="progress progressBrazos">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" id="progressBrazos"
+          role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100" style="width: 1%"></div>
+      </div>
+
+      <h4>Espalda y hombros</h4>
+      <div class="progress progressPectorales">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" id="progressEspHom"
+          role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100" style="width: 1%"></div>
+      </div>
+
+      <h4>Piernas</h4>
+      <div class="progress progressPectorales">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" id="progressPiernas"
+          role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100" style="width: 1%"></div>
+      </div>
+
+    </div>
+
+    <div class="infoExersise d-flex flex-wrap">
+      <div class="card text-bg-dark infoCard">
+        <img src="https://i.ibb.co/pRzKWSX/man-standing-in-the-gym-royalty-free-image-1588000050.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay cardText">
+          <h5 class="card-title">Abdomen</h5>
+          <p class="card-text">Los abdominales son un grupo muscular que se encuentra en la zona media del cuerpo y que condiciona gran parte de nuestros movimientos. Trabajar esta zona afecta indirectamente al resto del cuerpo y mejora, por ejemplo, nuestra postura corporal.</p>
+          <p class="card-text">Algunos beneficios:</p>
+        <ol>
+          <li>Mejora de postura</li>
+          <li>Mejorar el equilibrio</li>
+          <li>Trabajar fuerza funcional</li>
+        </ol>
+        </div>
+      </div>
+      <div class="card text-bg-dark infoCard">
+        <img src="https://i.ibb.co/9wFYxgj/piernas.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay cardText">
+          <h5 class="card-title">Piernas</h5>
+          <p class="card-text">Las piernas son un grupo de musculos que componen principalmente los Cuádriceps, los Isquiotibiales, los Sóleos, los Gemelos y los Glúteos</p>
+          <p class="card-text">Algunos beneficios:</p>
+          <ol>
+            <li>Ayuda a perder peso</li>
+            <li>Nos permite mejorar en otros deportes</li>
+            <li>Mejora la circulación sanguínea</li>
+          </ol>
+        </div>
+      </div>
+      <div class="card text-bg-dark infoCard">
+        <img src="https://i.ibb.co/mN57ZjV/pectorales.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay cardText">
+          <h5 class="card-title">Pectorales</h5>
+          <p class="card-text">Las pectorales están al nivel del tórax. Dos músculos forman los pectorales: el pectoral mayor y el pectoral menor. Permiten la aducción, la flexión de los brazos y la antepulsión en particular.</p>
+          <p class="card-text">Algunos beneficios:</p>
+          <ol>
+            <li>Obtener mejor equilibrio y postura</li>
+            <li>Musculos de la espalda mas tonificados</li>
+            <li>Evita contracturas en la espalda y los hombros</li>
+          </ol>
+        </div>
+      </div>
+      <div class="card text-bg-dark infoCard">
+        <img src="https://i.ibb.co/72PQFJF/bicep.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay cardText">
+          <h5 class="card-title">Brazos</h5>
+          <p class="card-text">La zona del antebrazo comprende la musculatura que empieza a la altura del codo y se inserta en diferentes partes de la muñeca</p>
+          <p class="card-text"><small>Algunos beneficios:</small></p>
+          <ol>
+            <li>Reduce la tension articular</li>
+            <li>Mejora el agarre</li>
+            <li>Mejora la destreza</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

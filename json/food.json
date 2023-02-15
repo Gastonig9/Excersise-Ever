@@ -1,0 +1,188 @@
+[
+  {
+    "aliment": "fideos",
+    "price": "$3",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "arroz",
+    "price": "$7",
+    "canEatIt": false,
+    "alergias": "Si"
+  },
+  {
+    "aliment": "ensalada",
+    "price": "$5",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "hamburguesa",
+    "price": "$10",
+    "canEatIt": false,
+    "alergias": "No"
+  },
+  {
+    "aliment": "pizza",
+    "price": "$12",
+    "canEatIt": false,
+    "alergias": "No"
+  },
+  {
+    "aliment": "sopa",
+    "price": "$4",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "pollo",
+    "price": "$8",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "salmon",
+    "price": "$15",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "manzana",
+    "price": "$1",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "tostadas",
+    "price": "$3",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "helado",
+    "price": "$6",
+    "canEatIt": false,
+    "alergias": "No"
+  },
+  {
+    "aliment": "galletas",
+    "price": "$2",
+    "canEatIt": false,
+    "alergias": "Si"
+  },
+  {
+    "aliment": "sandwich",
+    "price": "$6",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "yogur",
+    "price": "$3",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "papas fritas",
+    "price": "$4",
+    "canEatIt": false,
+    "alergias": "No"
+  },
+  {
+    "aliment": "cebolla",
+    "price": "$0.5",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "pimiento",
+    "price": "$1",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "zucchini",
+    "price": "$2",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "pescado",
+    "price": "$10",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "camarones",
+    "price": "$15",
+    "canEatIt": true,
+    "alergias": "Si"
+  },
+  {
+    "aliment": "atún",
+    "price": "$12",
+    "canEatIt": true,
+    "alergias": "Si"
+  },
+  {
+    "aliment": "brócoli",
+    "price": "$3",
+    "canEatIt": true,
+    "alergias": "Si"
+  },
+  {
+    "aliment": "coliflor",
+    "price": "$2",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "zanahoria",
+    "price": "$1",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "calabaza",
+    "price": "$2",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "espinaca",
+    "price": "$2",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "donut",
+    "price": "$2",
+    "canEatIt": false,
+    "alergias": "No"
+  },
+  {
+    "aliment": "soda",
+    "price": "$1.50",
+    "canEatIt": false,
+    "alergias": "No"
+  },
+  {
+    "aliment": "chocolate",
+    "price": "$3",
+    "canEatIt": false,
+    "alergias": "Si"
+  },
+  {
+    "aliment": "batido de frutas",
+    "price": "$4",
+    "canEatIt": true,
+    "alergias": "No"
+  },
+  {
+    "aliment": "gaseosas",
+    "price": "$3",
+    "canEatIt": false,
+    "alergias": "No"
+  }
+]
