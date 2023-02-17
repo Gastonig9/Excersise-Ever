@@ -15,23 +15,126 @@ nav {font-family: 'Bungee Inline', cursive;}
     background-attachment: fixed;
     background-size: cover;
 }
+body {
+    font-family: "Mukta", sans-serif;
+  }
 
-.banner h1 {
-    width: 45%;
-    background-color: white;
-}
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
 
-.banner ul li {
-    width: 45%;
-    background-color: white;
-    padding: 10px;
+  .navbar {
+    background-color: #333;
+  }
+
+  .navbar-brand {
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+
+  .navbar-nav .nav-link {
+    font-family: "Bungee Inline", cursive;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 1.5rem;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ffc107;
+  }
+
+  .banner {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .banner h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: #863131;
+    text-shadow: 2px 2px #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .banner ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
-    border-radius: 20px;
-}
+    padding: 5px;
+    list-style: none;
+  }
+  
+  .banner li {
+    margin: 10px 20px;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    background: linear-gradient(rgba(25, 25, 25, 0.8), rgba(25, 25, 25, 0.8));
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+  .banner li:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 0, 0, 0.8);
+  }
 
-.cards {
-    margin: 20px;
-}
+  
+
+  .cards {
+    margin-top: 3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
+  .cards h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 2rem;
+  }
+
+  .cards h5 {
+    font-family: "Bungee", cursive;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .cards p {
+    font-size: 1.2rem;
+  }
+
+  .cards .btn {
+    font-family: "Secular One", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+
+  .cards .btn:hover {
+    background-color: white;
+    color: #000;
+    transform: scale(1.1);
+  }
 
 /*PAGINA DE EJERCICIOS*/
 .info {
@@ -118,23 +221,22 @@ nav {font-family: 'Bungee Inline', cursive;}
 }
 
 .infoExersise .cardText h5 {
-    background-color: rgba(255, 255, 255,0.5);
-    color: rgb(84, 84, 168);
-    text-align: center;
-    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    font-size: 27px;
 }
 
 .infoExersise .cardText p {
-    background-color: rgba(255, 255, 255,0.5);
-    color: rgb(84, 84, 168);
-    text-align: center;
-    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 .infoExersise .cardText li {
-    background-color: rgba(255, 255, 255,0.5);
-    color: rgb(84, 84, 168);    
-    padding: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+
 }
 
 
@@ -146,36 +248,86 @@ nav {font-family: 'Bungee Inline', cursive;}
 /*PAGINA DE ALIMENTO*/
 
 .infoFood {
-    color: black;
     background-image: url("https://i.ibb.co/27fxd09/33da2f3ce5770f3630fc83cc324101e7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    padding: 2rem;
     text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
-.infoFood h1,h4 {
-    background-color: rgba(0, 0, 0,0.7);
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-}
-
+.infoFood h1,
+.infoFood h4,
 .infoFood p {
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  padding: 10px;
+  border-radius: 20px ;
 }
 
-.inputContain {
-    margin-top: 50px;
-    text-align: center;
-    color: black;
-}
+
+.infoFood, .inputContain {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inputContain {
+    background: linear-gradient(to right, #5f9ea0, #0f2027);
+    color: #fff;
+  }
+  
+  .inputContain h2 {
+    font-family: 'Bungee Inline', cursive;
+  }
 
 
 .inputFood {
-    width: 50%;
-    margin: auto;
-}
+    margin-top: 1.5rem;
+  }
+  
+  .inputFood input[type=text] {
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    width: 60%;
+    margin-right: 1rem;
+  }
+  
+  .inputFood button {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Bungee', cursive;
+    border: none;
+  }
+  
+  .inputFood button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav .nav-link {
+      margin: 0;
+    }
+  }
 
-.inputFood button {
-    margin: 10px;
-}
+  /*FOOTER*/
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
